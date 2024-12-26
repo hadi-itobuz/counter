@@ -1,0 +1,36 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.counter {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: darkgray;
+}
+.counter__count {
+  font-size: 100px;
+  margin: 0;
+}
+.counter__btn {
+  padding: 10px 30px;
+}
+.counter__btn:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 300ms ease-in-out;
+}
+.counter__btn:active {
+  transform: scale(0.97);
+  transition: 300ms ease-in-out;
+}/*# sourceMappingURL=style.css.map */
